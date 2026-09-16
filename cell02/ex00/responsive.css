@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout: fixed;
+}
+
+td {
+    width: 50%;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+.first-cell {
+    background-color: #c2cb7e;
+    border-right: 1px solid #888;
+}
+
+.second-cell {
+    background-color: #fcae96;
+}
