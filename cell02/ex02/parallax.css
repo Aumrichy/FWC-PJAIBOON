@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.parallax {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* หัวใจหลักของ Parallax Effect */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* รูปภาพที่ 1 */
+.pimg1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZeHOJIT0OZg3lzYrwWR7Dlz39rpliV6Lt0BHC3ZNeog&s=10');
+}
+
+/* รูปภาพที่ 2 */
+.pimg2 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSjgMt2elTQswgUCKaKPdntwnL4hDBgM6sJ_v7RklOcg&s=10');
+}
+
+/* บล็อกสีดำตรงกลาง */
+.section-black {
+    background-color: #000000;
+    color: #ffffff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptext {
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px; /* ปรับตัวหนังสือให้เล็กลงมาก */
+}
+
+/* ข้อความแบบไม่มีกรอบ */
+.border {
+    color: #ffffff;
+    font-size: 10px; /* ปรับตัวหนังสือให้เล็กลงมาก */
+    letter-spacing: 1px;
+}
