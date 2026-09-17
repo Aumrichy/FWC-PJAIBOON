@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Paphidchaya Jaiboon</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Darkgrey background paddingTOP */
+        body { padding-top: 70px; background-color: #f3f4f6; }
+        /* Main pink class for buttons */
+        .bg-pink { background-color: #d63384; color: #ffffff; }
+        /* Light pink class for skill badges */
+        .badge-pink { background-color: #ffe6ed; color: #d63384; }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top bg-white border-bottom p-2">
+        <div class="container" style="max-width: 700px;">
+            <!-- ext-dark -->
+            <a class="navbar-brand text-dark fs-6 fw-bold" href="index.html">&larr; Home</a>
+            <div class="d-flex gap-3">
+                <a class="nav-link text-dark p-0" href="#profile">Profile</a>
+                <a class="nav-link text-dark p-0" href="#about">About</a>
+                <a class="nav-link text-dark p-0" href="#education">Education</a>
+                <a class="nav-link text-dark p-0" href="#experience">Experience</a>
+                <a class="nav-link text-dark p-0" href="#skills">Skills</a>
+                <a class="nav-link text-dark p-0" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ปรับให้cotainerดุดี -->
+    <div class="container py-4" style="max-width: 700px;">
+
+        <!-- Profile -->
+        <section id="profile" class="card border-0 p-4 mb-3 text-center">
+            <img src="https://cdn.intra.42.fr/users/849659cfad506ac81c73c6b3228401e8/default.jpg" alt="Paphidchaya" class="rounded-circle mx-auto mb-3" width="120" height="120" style="object-fit: cover;">
+            <h3 class="fw-bold mb-1">Paphidchaya Jaiboon</h3>
+            <p class="text-muted mb-2">@pjaiboon</p>
+            <p class="fw-bold mb-0" style="color: #d63384;">Beef Eaters</p>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="card border-0 p-4 mb-3">
+            <h5 class="fw-bold mb-2 text-dark">What's about me</h5>
+            <p class="text-muted mb-0">
+                I'm a student studying at KMITL in Digital Technology and Integrated Innovation. I'm interested in Cocoa, Kinder Bueno White, and Music.
+            </p>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="card border-0 p-4 mb-3">
+            <h5 class="fw-bold mb-3 text-dark">Education</h5>
+            
+            <!-- Darasamutr School -->
+            <div class="d-flex gap-3 mb-4 align-items-start">
+                <!-- Logo(Left) -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh467WJtZI0C0OKvsyChsjJaAumQC3maCEY5ftxYuPbQ&s=10" alt="Darasamutr Logo" width="130" height="130" class="rounded-circle flex-shrink-0" style="object-fit: contain;">
+                <!-- Description+Image(right) -->
+                <div class="flex-grow-1">
+                    <strong class="d-block text-dark">Darasamutr School Sriracha</strong>
+                    <small class="text-muted d-block mb-1">High School Diploma</small>
+                    <p class="text-muted small mb-2">Graduated high school with a strong foundation in academic fundamentals and extracurricular activities.</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAbQjzeZ8hBcaXZKcmSXERuZWdX5eruC5r0INOB032rQ&s=10" alt="Darasamutr School" class="w-100 rounded" style="max-height: 180px; object-fit: cover;">
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- KMITL -->
+            <div class="d-flex gap-3 align-items-start">
+                <!-- Logo(Left) -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK6X9xDsNomiW0iNyCBjuaF-oVWFfWxrXP0cfks9MMZQ&s=10" alt="KMITL Logo" width="130" height="130" class="rounded-circle flex-shrink-0" style="object-fit: contain;">
+                <!-- Description+Image(right) -->
+                <div class="flex-grow-1">
+                    <strong class="d-block text-dark">King Mongkut's Institute of Technology Ladkrabang</strong>
+                    <small class="text-muted d-block mb-1">2024 - Present</small>
+                    <p class="text-muted small mb-2">Currently studying Bachelor of Science in Digital Technology and Integrated Innovation.</p>
+                    <img src="https://admin.curriculum.kmitl.ac.th/api/media/file/kmitl-big.jpg" alt="KMITL Campus" class="w-100 rounded" style="max-height: 180px; object-fit: cover;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="card border-0 p-4 mb-3">
+            <h5 class="fw-bold mb-3 text-dark">Experience</h5>
+            
+            <div class="mb-3">
+                <strong class="d-block text-dark">Teaching Assistant (TA) — Foundation English</strong>
+                <small class="text-muted">KMITL</small>
+                <p class="text-muted small mt-1 mb-0">Assisted professors in managing classes, supporting students during English foundation activities, and reviewing class materials.</p>
+            </div>
+
+            <hr>
+
+            <div>
+                <strong class="d-block text-dark">University Web & Coding Projects</strong>
+                <small class="text-muted">2024 - Present</small>
+                <p class="text-muted small mt-1 mb-0">Developed web applications and programming assignments using HTML, CSS, JavaScript, and Python during university coursework and coding events.</p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="card border-0 p-4 mb-3">
+            <h5 class="fw-bold mb-3 text-dark">Skills</h5>
+            
+            <h6 class="fw-bold mb-2 text-dark">Hard Skills</h6>
+            <div class="mb-3">
+                <span class="badge badge-pink p-2">HTML</span>
+                <span class="badge badge-pink p-2">CSS</span>
+                <span class="badge badge-pink p-2">JavaScript</span>
+                <span class="badge badge-pink p-2">Python</span>
+                <span class="badge badge-pink p-2">Bootstrap</span>
+            </div>
+
+            <h6 class="fw-bold mb-2 text-dark">Soft Skills</h6>
+            <div>
+                <span class="badge bg-light text-dark border p-2">Communication</span>
+                <span class="badge bg-light text-dark border p-2">English Communication</span>
+                <span class="badge bg-light text-dark border p-2">Teamwork</span>
+                <span class="badge bg-light text-dark border p-2">Problem Solving</span>
+                <span class="badge bg-light text-dark border p-2">Adaptability</span>
+                <span class="badge badge-light text-dark border p-2">Time Management</span>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="card border-0 p-4 mb-3 text-center">
+            <h5 class="fw-bold mb-3 text-dark">Contacts Me!</h5>
+            <div class="d-flex justify-content-center gap-2">
+                <a href="https://www.instagram.com/sobsobrrry/?hl=en" target="_blank" class="btn bg-pink">Instagram</a>
+                <a href="https://discord.com/users/732258786139570247" target="_blank" class="btn bg-pink">Discord</a>
+                <a href="https://github.com/Aumrichy/FWC-PJAIBOON" target="_blank" class="btn bg-pink">GitHub</a>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
