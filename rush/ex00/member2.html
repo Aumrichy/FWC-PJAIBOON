@@ -6,21 +6,12 @@
     <title>Resume - Paphidchaya Jaiboon</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        /* Darkgrey background paddingTOP */
-        body { padding-top: 70px; background-color: #f3f4f6; }
-        /* Main pink class for buttons */
-        .bg-pink { background-color: #d63384; color: #ffffff; }
-        /* Light pink class for skill badges */
-        .badge-pink { background-color: #ffe6ed; color: #d63384; }
-    </style>
 </head>
-<body>
+<body class="bg-body-secondary" style="padding-top: 70px;">
 
     <!-- Navbar -->
     <nav class="navbar fixed-top bg-white border-bottom p-2">
         <div class="container" style="max-width: 700px;">
-            <!-- ext-dark -->
             <a class="navbar-brand text-dark fs-6 fw-bold" href="index.html">&larr; Home</a>
             <div class="d-flex gap-3">
                 <a class="nav-link text-dark p-0" href="#profile">Profile</a>
@@ -33,7 +24,7 @@
         </div>
     </nav>
 
-    <!-- ปรับให้cotainerดุดี -->
+    <!-- Main Container -->
     <div class="container py-4" style="max-width: 700px;">
 
         <!-- Profile -->
@@ -41,7 +32,7 @@
             <img src="https://cdn.intra.42.fr/users/849659cfad506ac81c73c6b3228401e8/default.jpg" alt="Paphidchaya" class="rounded-circle mx-auto mb-3" width="120" height="120" style="object-fit: cover;">
             <h3 class="fw-bold mb-1">Paphidchaya Jaiboon</h3>
             <p class="text-muted mb-2">@pjaiboon</p>
-            <p class="fw-bold mb-0" style="color: #d63384;">Beef Eaters</p>
+            <p class="fw-bold mb-0 text-danger">Beef Eaters</p>
         </section>
 
         <!-- About -->
@@ -56,11 +47,8 @@
         <section id="education" class="card border-0 p-4 mb-3">
             <h5 class="fw-bold mb-3 text-dark">Education</h5>
             
-            <!-- Darasamutr School -->
             <div class="d-flex gap-3 mb-4 align-items-start">
-                <!-- Logo(Left) -->
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh467WJtZI0C0OKvsyChsjJaAumQC3maCEY5ftxYuPbQ&s=10" alt="Darasamutr Logo" width="130" height="130" class="rounded-circle flex-shrink-0" style="object-fit: contain;">
-                <!-- Description+Image(right) -->
                 <div class="flex-grow-1">
                     <strong class="d-block text-dark">Darasamutr School Sriracha</strong>
                     <small class="text-muted d-block mb-1">High School Diploma</small>
@@ -71,11 +59,8 @@
 
             <hr>
 
-            <!-- KMITL -->
             <div class="d-flex gap-3 align-items-start">
-                <!-- Logo(Left) -->
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK6X9xDsNomiW0iNyCBjuaF-oVWFfWxrXP0cfks9MMZQ&s=10" alt="KMITL Logo" width="130" height="130" class="rounded-circle flex-shrink-0" style="object-fit: contain;">
-                <!-- Description+Image(right) -->
                 <div class="flex-grow-1">
                     <strong class="d-block text-dark">King Mongkut's Institute of Technology Ladkrabang</strong>
                     <small class="text-muted d-block mb-1">2024 - Present</small>
@@ -108,15 +93,17 @@
         <section id="skills" class="card border-0 p-4 mb-3">
             <h5 class="fw-bold mb-3 text-dark">Skills</h5>
             
+            <!-- Hard Skills -->
             <h6 class="fw-bold mb-2 text-dark">Hard Skills</h6>
             <div class="mb-3">
-                <span class="badge badge-pink p-2">HTML</span>
-                <span class="badge badge-pink p-2">CSS</span>
-                <span class="badge badge-pink p-2">JavaScript</span>
-                <span class="badge badge-pink p-2">Python</span>
-                <span class="badge badge-pink p-2">Bootstrap</span>
+                <span class="badge bg-danger p-2">HTML</span>
+                <span class="badge bg-danger p-2">CSS</span>
+                <span class="badge bg-danger p-2">JavaScript</span>
+                <span class="badge bg-danger p-2">Python</span>
+                <span class="badge bg-danger p-2">Bootstrap</span>
             </div>
 
+            <!-- Soft Skills -->
             <h6 class="fw-bold mb-2 text-dark">Soft Skills</h6>
             <div>
                 <span class="badge bg-light text-dark border p-2">Communication</span>
@@ -124,7 +111,7 @@
                 <span class="badge bg-light text-dark border p-2">Teamwork</span>
                 <span class="badge bg-light text-dark border p-2">Problem Solving</span>
                 <span class="badge bg-light text-dark border p-2">Adaptability</span>
-                <span class="badge badge-light text-dark border p-2">Time Management</span>
+                <span class="badge bg-light text-dark border p-2">Time Management</span>
             </div>
         </section>
 
@@ -132,9 +119,9 @@
         <section id="contact" class="card border-0 p-4 mb-3 text-center">
             <h5 class="fw-bold mb-3 text-dark">Contacts Me!</h5>
             <div class="d-flex justify-content-center gap-2">
-                <a href="https://www.instagram.com/sobsobrrry/?hl=en" target="_blank" class="btn bg-pink">Instagram</a>
-                <a href="https://discord.com/users/732258786139570247" target="_blank" class="btn bg-pink">Discord</a>
-                <a href="https://github.com/Aumrichy/FWC-PJAIBOON" target="_blank" class="btn bg-pink">GitHub</a>
+                <a href="https://www.instagram.com/sobsobrrry/?hl=en" target="_blank" class="btn btn-danger">Instagram</a>
+                <a href="https://discord.com/users/732258786139570247" target="_blank" class="btn btn-danger">Discord</a>
+                <a href="https://github.com/Aumrichy/FWC-PJAIBOON" target="_blank" class="btn btn-danger">GitHub</a>
             </div>
         </section>
 
